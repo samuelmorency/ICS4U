@@ -1,0 +1,21 @@
+HAI 1.2 BTW Starts program
+
+VISIBLE "HAI, DIS MY SAMPEL PROGRAM" BTW Outputs string
+
+I HAS A MYCAT ITZ "KITTEH" BTW Declares variable and assigns value
+
+I HAS A URCAT
+
+VISIBLE "WHAT IS THE NAME OF UR CAT"
+
+GIMMEH URCAT BTW Assigns user input to variable
+
+BOTH SAEM MYCAT AN URCAT
+  O RLY?
+    YA RLY
+      VISIBLE "WOA R CATS HAVE SAEM NAEM"
+    NO WAI
+      VISIBLE "O NOES! NOT SAEM TINGS!"
+  OIC
+
+KTHXBYE BTW Ends program
