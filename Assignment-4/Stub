@@ -1,0 +1,23 @@
+/********************************************************************************
+* Created by: Sam Morency
+* Created on: October, 2016
+* Created for: ICS4U
+* This is a program that will return properties of a chosen triangle
+********************************************************************************/
+
+public class Stub {
+
+	public static void main(String[] args) {
+		
+		Triangle myTriangle = new Triangle(3,3,3);
+		
+		System.out.println("Type: " + myTriangle.getType());
+		System.out.println("Valid: " + myTriangle.isTriangleValid());
+		System.out.println("Area: " + myTriangle.getArea());
+		System.out.println("Perimeter: " + myTriangle.getPerimeter());
+		System.out.println("Height: " + myTriangle.getHeight());
+		System.out.println("Largest Inner Circle Radius: " + myTriangle.getInnerCircleRadius());
+		System.out.println("Area of Circumcircle: " + myTriangle.getCircumCircleArea());
+	}
+
+}
