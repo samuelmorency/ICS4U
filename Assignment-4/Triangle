@@ -5,8 +5,6 @@
 * This is a program that will return properties of a chosen triangle
 ********************************************************************************/
 
-
-
 public class Triangle {
 	
 	private double _sideA;
@@ -24,6 +22,7 @@ public class Triangle {
 	
 	//Protected Methods
 	protected String getType(){
+		//display type only if triangle is valid
 		if (this.isTriangleValid() == true){
 			if (this._sideA == this._sideB && this._sideB == this._sideC){
 				return "Equilateral";
