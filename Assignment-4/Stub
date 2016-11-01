@@ -2,7 +2,7 @@
 * Created by: Sam Morency
 * Created on: October, 2016
 * Created for: ICS4U
-* This is a program that will return properties of a chosen triangle
+* This is a stub class for a program that will return properties of a chosen triangle
 ********************************************************************************/
 
 import java.util.Scanner;
