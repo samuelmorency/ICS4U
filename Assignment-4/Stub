@@ -5,14 +5,23 @@
 * This is a program that will return properties of a chosen triangle
 ********************************************************************************/
 
+import java.util.Scanner;
+
 public class Stub {
 
 	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("What is side a");
+		int a = scan.nextInt();
+		System.out.println("What is side b");
+		int b = scan.nextInt();
+		System.out.println("What is side c");
+		int c = scan.nextInt();
 		
-		Triangle myTriangle = new Triangle(3,3,3);
+		Triangle myTriangle = new Triangle(a,b,c);
 		
-		System.out.println("Type: " + myTriangle.getType());
 		System.out.println("Valid: " + myTriangle.isTriangleValid());
+		System.out.println("Type: " + myTriangle.getType());
 		System.out.println("Area: " + myTriangle.getArea());
 		System.out.println("Perimeter: " + myTriangle.getPerimeter());
 		System.out.println("Height: " + myTriangle.getHeight());
