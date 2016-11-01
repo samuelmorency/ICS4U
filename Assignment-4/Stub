@@ -1,9 +1,10 @@
-/********************************************************************************
+/*******************************************************************************
 * Created by: Sam Morency
 * Created on: October, 2016
 * Created for: ICS4U
 * This is a stub class for a program that will return properties of a chosen triangle
 ********************************************************************************/
+
 
 import java.util.Scanner;
 
@@ -12,11 +13,26 @@ public class Stub {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("What is side a");
-		int a = scan.nextInt();
+		//only accept double
+		while(!scan.hasNextDouble()) {
+		    System.out.println("Please input a number value");
+			scan.next();
+		}
+		double a = scan.nextDouble();
 		System.out.println("What is side b");
-		int b = scan.nextInt();
+		//only accept double
+		while(!scan.hasNextDouble()) {
+			System.out.println("Please input a number value");
+		    scan.next();
+		}
+		double b = scan.nextDouble();
 		System.out.println("What is side c");
-		int c = scan.nextInt();
+		//only accept double
+		while(!scan.hasNextDouble()) {
+			System.out.println("Please input a number value");
+		    scan.next();
+		}
+		double c = scan.nextDouble();
 		
 		Triangle myTriangle = new Triangle(a,b,c);
 		
